@@ -1,3 +1,5 @@
+using System;
+
 namespace SpecificationPattern
 {
     /// <summary>
@@ -42,6 +44,12 @@ namespace SpecificationPattern
         public ISpecification<TEntity> Not()
         {
             return new NotSpecification<TEntity>(this);
+        }
+
+
+        public static SpecificationBuilder<TEntity> With(Func<TEntity, bool> conditional)
+        {
+            return new SpecificationBuilder<TEntity>(conditional);
         }
     }
 }

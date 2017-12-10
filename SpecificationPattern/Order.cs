@@ -18,6 +18,7 @@ namespace SpecificationPattern
 
         public bool IsRush()
         {
+#if false
             bool isRush = false;
             if (ShippingAddress.Country == "USA")
             {
@@ -34,13 +35,13 @@ namespace SpecificationPattern
             }
 
             return isRush;
-
-            #region
+#endif
+#region
 
             var spec = new RushOrderSpecification();
             return spec.IsSatisfiedBy(this);
 
-            #endregion
+#endregion
         }
     }
 }
