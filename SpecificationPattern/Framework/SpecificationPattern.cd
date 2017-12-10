@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpecificationPattern.AndSpecification&lt;TEntity&gt;" Collapsed="true">
+    <Position X="5.75" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\AndSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpecificationPattern.Specification&lt;TEntity&gt;">
+    <Position X="5.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAACAAAABgAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Specification.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SpecificationPattern.CompositeSpecification&lt;TEntity&gt;" Collapsed="true">
+    <Position X="6.75" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Framework\CompositeSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpecificationPattern.NotSpecification&lt;TEntity&gt;" Collapsed="true">
+    <Position X="3.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\NotSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpecificationPattern.OrSpecification&lt;TEntity&gt;" Collapsed="true">
+    <Position X="8" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\OrSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SpecificationPattern.ISpecification&lt;TEntity&gt;">
+    <Position X="9.25" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAACAAAABgAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\ISpecification.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
