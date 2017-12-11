@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 using SpecificationPattern.Specifications;
+using static SpecificationPattern.Specifications.OrderSpec;
 
 namespace SpecificationPattern
 {
@@ -18,8 +19,8 @@ namespace SpecificationPattern
 
         public bool IsRush()
         {
-            var spec = new RushOrderSpecification();
-            return this.Satisifies(spec);
+            return this.Satisifies(RushOrder);
         }
     }
+
 }
