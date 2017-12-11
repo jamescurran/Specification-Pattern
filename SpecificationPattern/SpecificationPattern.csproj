@@ -69,6 +69,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Address.cs" />
+    <Compile Include="Framework\ISpecificationTarget.cs" />
+    <Compile Include="Framework\SpecExt.cs" />
     <Compile Include="Framework\SpecificationBuilder.cs" />
     <Compile Include="Framework\AndSpecification.cs" />
     <Compile Include="Framework\CompositeSpecification.cs" />

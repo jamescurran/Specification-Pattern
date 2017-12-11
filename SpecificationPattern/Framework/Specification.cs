@@ -52,4 +52,5 @@ namespace SpecificationPattern
             return new SpecificationBuilder<TEntity>(conditional);
         }
     }
+
 }
